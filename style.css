@@ -1,0 +1,47 @@
+/* ENTIRE PAGE */
+
+body {
+    width: 901px;
+    margin: 0px auto;
+    font-family: serif;
+}
+
+/* HEADER */
+
+header {
+    height: 90px;
+    border-bottom: 2px solid grey;
+}
+
+header img {
+    float:left;
+    margin-right: 5px;
+}
+
+nav {
+    margin-top: 30px;
+}
+
+nav h1 {
+    font-family: 'Yellowtail', cursive;
+    font-size: 30px;
+}
+
+nav p {
+    text-transform: uppercase;
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 8px;
+    float: left;
+}
+
+div ul {
+    position: relative;
+    left: 225px;
+    border: 3px solid #73AD21;
+  }
+
+/* MAIN - BANNER*/
+
+/* MAIN - SECTION*/
+
+/* FOOTER */
