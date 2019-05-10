@@ -1,43 +1,55 @@
 /* ENTIRE PAGE */
 
 body {
-    width: 901px;
-    margin: 0px auto;
-    font-family: serif;
+  width: 901px;
+  margin: 0px auto;
+  font-family: serif;
 }
 
 /* HEADER */
 
 header {
-    height: 90px;
-    border-bottom: 2px solid grey;
-}
-
-header img {
-    float:left;
-    margin-right: 5px;
+  height: 60px;
+  border-bottom: 5px solid grey;
 }
 
 nav {
-    margin-top: 30px;
+  margin-top: 30px;
+}
+
+header img {
+  float:left;
+  margin-right: 5px;
+}
+
+header li img {
+  margin-right: 1px;
+}
+
+#navLiGap {
+  margin-right: 10px;
 }
 
 nav h1 {
-    font-family: 'Yellowtail', cursive;
-    font-size: 30px;
+  font-family: 'Yellowtail', cursive;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 nav p {
-    text-transform: uppercase;
-    font-family: 'Advent Pro', sans-serif;
-    font-size: 8px;
-    float: left;
+  text-transform: uppercase;
+  font-family: 'Advent Pro', sans-serif;
+  font-size: 10px;
+  float: left;
 }
 
 div ul {
-    position: relative;
-    left: 225px;
-    border: 3px solid #73AD21;
+
+  position: absolute;
+  top: 35px;
+  right: 180px;
+  width: 240px;
+  height: 100px;
 }
 
 /* MAIN - BANNER*/
